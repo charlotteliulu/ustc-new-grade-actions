@@ -15,7 +15,7 @@ use_ssl = True
 ssl_port = 465
 
 # receiver_email
-receivers = []
+receivers = ['LiuLu19@mail.ustc.edu.cn']
 if os.getenv('MAIL_QQ'):
     receivers.append(os.environ['MAIL_QQ'])
 if os.getenv('MAIL_USTC'):
